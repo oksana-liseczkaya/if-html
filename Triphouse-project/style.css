@@ -56,28 +56,95 @@ header {
   left: 0px;
 }
 
+.night {
+  width: 30px;
+  height: 30px;
+  background-image: url(./img/Night.svg);
+  margin-right: 24px;
+  margin-left: 48px;
+}
+.account {
+  width: 40px;
+  height: 40px;
+  background-image: url(./img/AccountCircle.svg);
+}
+
+.account:hover {
+  background-image: url(./img/AccountCircle_or.svg);
+}
+
 .header__buttons {
   display: flex;
 }
 
-.header__buttons a {
+.header__buttons div {
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 24px;
 }
 
 .header__search {
-  padding-left: 104px;
-  padding-top: 202px;
-  font-family: Roboto;
+  margin-bottom: 120px;
+}
+
+.header__title {
+  display: flex;
+  line-height: 50px;
   font-weight: 500;
   font-size: 50px;
   color: #ffffff;
+  padding-bottom: 100px;
+  margin-top: 202px;
+}
+form {
+  display: flex;
+  margin-top: 100px;
+}
+
+form p {
+  color: #ffffff;
+  line-height: 21px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+form .header__destination {
+  flex-grow: 4;
+}
+
+form .header__date {
+  flex-grow: 2;
+}
+
+form .header__people {
+  flex-grow: 3;
+  display: flex;
+  padding-top: 45px;
+}
+
+form button {
+  color: #fff;
+  background-color: #3077c6;
+  flex-grow: 2;
+  height: 64px;
+  margin-top: 45px;
+  border-radius: 8px;
+}
+
+form input {
+  height: 64px;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .header__download {
-  margin-left: 585px;
-  margin-top: 329px;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.header__download a:first-child {
+  margin-right: 15px;
 }
 
 .header__mob {
@@ -213,20 +280,94 @@ header {
     margin: 12px 8px;
   }
 
-  .header__search_mob {
-    padding-left: 12px;
-    padding-top: 52px;
-    font-family: Roboto;
+  .header__title_mob {
+    margin-top: 52px;
     font-weight: 500;
     font-size: 30px;
     color: #ffffff;
+    display: block;
+  }
+
+  .header__search_mob {
+    display: block;
+  }
+
+  .header__windows_mob {
+    margin-top: 31px;
+    background: #f5bd41;
+    padding: 8px;
+    display: block;
+  }
+
+  .header__form_mob {
+    display: block;
+    padding-bottom: 32px;
+  }
+
+  .header__destination_mob {
+    display: flex;
+    padding-bottom: 8px;
+  }
+
+  .header__destination_mob input {
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .header__check_mob {
+    display: flex;
+  }
+
+  .header__in_mob {
+    padding-bottom: 8px;
+  }
+
+  .header__in_mob input {
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    width: 101%;
+  }
+
+  .header__out_mob {
+    padding-left: 8px;
+    padding-bottom: 8px;
+  }
+
+  .header__out_mob input {
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+    width: 105%;
+  }
+
+  .header__people_mob {
+    display: flex;
+    padding-bottom: 8px;
+  }
+
+  .header__people_mob input {
+    height: 48px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .header__windows_mob button {
+    margin: 0px;
+    height: 48px;
+    width: 100%;
+    background: #3077c6;
+    border: none;
+    border-radius: 4px;
   }
 
   .header__download_mob {
-    padding-top: 250px;
-    padding-left: 40px;
-    margin-top: 217px;
+    margin-top: 32px;
     text-align: center;
+  }
+  .header__download_mob a:first-child {
+    margin-right: 15px;
   }
 
   .offer_wrapper {
