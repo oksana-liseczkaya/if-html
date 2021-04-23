@@ -254,7 +254,7 @@ form input {
   .header__mob {
     padding: 30px 10px 40px;
     min-height: 535px;
-    background: url(../img/header-background.png) none;
+    background: url(./img/header-background.png) none;
     display: block;
   }
 
