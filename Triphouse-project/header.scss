@@ -169,36 +169,35 @@ header {
   &__mobile {
     display: none;
   }
-      div {
-        margin: 0;
-        p {
-          padding: 12px 0 8px 0;
-          text-align: left;
-        }
-        label {
-          font-style: normal;
-          font-weight: 300;
-          font-size: 16px;
-          line-height: 19px;
-          color: black;
-        }
-        input {
-          border: 2px solid #cecece;
-          border-radius: 8px;
-          width: 100%;
-          padding: 0;
-          height: 41px;
-        }
-      }
-
-      button {
-        width: 100%;
-        height: 48px;
-        margin-top: 24px;
-      }
+  div {
+    margin: 0;
+    p {
+      padding: 12px 0 8px 0;
+      text-align: left;
+    }
+    label {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      color: black;
+    }
+    input {
+      border: 2px solid #cecece;
+      border-radius: 8px;
+      width: 100%;
+      padding: 0;
+      height: 41px;
     }
   }
+
+  button {
+    width: 100%;
+    height: 48px;
+    margin-top: 24px;
+  }
 }
+
 @media (max-width: 859px) {
   .header {
     &__main {
