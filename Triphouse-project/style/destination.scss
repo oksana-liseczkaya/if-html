@@ -82,7 +82,7 @@
     }
   }
   &__slider::after {
-    content: url(./img/arrow_bottom.svg);
+    content: url(../img/arrow_bottom.svg);
     position: absolute;
     top: 400px;
   }
@@ -101,7 +101,7 @@
     opacity: 0;
   }
   &__image::before {
-    content: url(./img/button.svg);
+    content: url(../img/button.svg);
     position: absolute;
     width: 16%;
     top: 40%;
@@ -167,7 +167,7 @@
         position: relative;
       }
       div:nth-child(2)::after {
-        content: url(./img/arrow-right_mob.svg);
+        content: url(../img/arrow-right_mob.svg);
         position: absolute;
         top: 60px;
         left: 135px;

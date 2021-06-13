@@ -5,13 +5,12 @@
 }
 
 .wrapper {
-  max-width: 1440px;
   margin: 0px auto;
 }
 
 header {
   width: 100%;
-  background: url(./img/header-background.png);
+  background: url(../img/header-background.png);
   background-size: cover;
 }
 
@@ -137,18 +136,18 @@ header {
   left: 0px;
 }
 .header__night {
-  background: url(./img/Night.svg);
+  background: url(../img/Night.svg);
   width: 30px;
   height: 30px;
   margin-left: 48px;
 }
 .header__account {
-  background: url(./img/AccountCircle.svg);
+  background: url(../img/AccountCircle.svg);
   width: 40px;
   height: 40px;
 }
 .header__account:hover {
-  background: url(./img/AccountCircle_or.svg);
+  background: url(../img/AccountCircle_or.svg);
   width: 40px;
   height: 40px;
 }
@@ -176,13 +175,39 @@ header {
 .header__mobile {
   display: none;
 }
+.header div {
+  margin: 0;
+}
+.header div p {
+  padding: 12px 0 8px 0;
+  text-align: left;
+}
+.header div label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+.header div input {
+  border: 2px solid #cecece;
+  border-radius: 8px;
+  width: 100%;
+  padding: 0;
+  height: 41px;
+}
+.header button {
+  width: 100%;
+  height: 48px;
+  margin-top: 24px;
+}
 
 @media (max-width: 859px) {
   .header__main {
     display: none;
   }
   .header__mobile {
-    background: url(./img/header-background.png);
+    background: url(../img/header-background.png);
     background-position: center;
     display: block;
     width: 100%;
@@ -203,18 +228,18 @@ header {
     display: flex;
   }
   .header__night_mobile {
-    background: url(./img/Night_mob.svg);
+    background: url(../img/Night_mob.svg);
     width: 16px;
     height: 16px;
   }
   .header__account_mobile {
-    background: url(./img/AccountCircle_mob.svg);
+    background: url(../img/AccountCircle_mob.svg);
     width: 24px;
     height: 24px;
     margin-left: 16px;
   }
   .header__bar_mobile {
-    background: url(./img/menu.svg);
+    background: url(../img/menu.svg);
     width: 24px;
     height: 16px;
     margin-left: 16px;
@@ -275,7 +300,7 @@ header {
   }
   .header__destination_mobile label::before {
     position: absolute;
-    content: url(./img/search.svg);
+    content: url(../img/search.svg);
     top: 16px;
     left: 12px;
   }
@@ -519,7 +544,7 @@ header {
   position: relative;
 }
 .homes__slider div:last-child:after {
-  content: url(./img/arrow_right.svg);
+  content: url(../img/arrow_right.svg);
   position: absolute;
   top: 125px;
   left: 270px;
@@ -562,7 +587,7 @@ header {
     position: relative;
   }
   .homes__slider div:nth-child(2)::after {
-    content: url(./img/arrow-right_mob.svg);
+    content: url(../img/arrow-right_mob.svg);
     position: absolute;
     top: 60px;
     left: 135px;
@@ -667,7 +692,7 @@ header {
   padding-bottom: 210px;
 }
 .destination__slider::after {
-  content: url(./img/arrow_bottom.svg);
+  content: url(../img/arrow_bottom.svg);
   position: absolute;
   top: 400px;
 }
@@ -686,7 +711,7 @@ header {
   opacity: 0;
 }
 .destination__image::before {
-  content: url(./img/button.svg);
+  content: url(../img/button.svg);
   position: absolute;
   width: 16%;
   top: 40%;
@@ -753,7 +778,7 @@ header {
     position: relative;
   }
   .destination__slider div:nth-child(2)::after {
-    content: url(./img/arrow-right_mob.svg);
+    content: url(../img/arrow-right_mob.svg);
     position: absolute;
     top: 60px;
     left: 135px;
@@ -811,7 +836,7 @@ header {
 }
 .reviews__place:last-child::after {
   position: absolute;
-  content: url(./img/arrow_bottom.svg);
+  content: url(../img/arrow_bottom.svg);
   top: 180px;
   left: 377px;
 }
@@ -917,7 +942,7 @@ header {
   padding-bottom: 24px;
 }
 .reviews__guest p::after {
-  content: url(./img/guest.svg);
+  content: url(../img/guest.svg);
   position: absolute;
   top: 0px;
   left: 30px;
@@ -1007,7 +1032,7 @@ header {
   .reviews__guest p::after {
     top: -4px;
     left: 4px;
-    content: url(./img/guest_mob.svg);
+    content: url(../img/guest_mob.svg);
   }
   .reviews__slider_mobile {
     display: flex;
@@ -1048,14 +1073,14 @@ header {
 }
 
 .signup::before {
-  content: url(./img/user.svg);
+  content: url(../img/user.svg);
   position: absolute;
   top: 57px;
   left: 24px;
 }
 
 .signup::after {
-  content: url(./img/cross.svg);
+  content: url(../img/cross.svg);
   position: absolute;
   top: 24px;
   left: 95%;
@@ -1103,7 +1128,7 @@ header {
   }
 
   .signup_mobile::before {
-    content: url(./img/cross_mob.svg);
+    content: url(../img/cross_mob.svg);
     position: absolute;
     top: 45px;
     left: 17px;

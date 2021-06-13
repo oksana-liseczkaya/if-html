@@ -2,7 +2,7 @@
 
 header {
   width: 100%;
-  background: url(./img/header-background.png);
+  background: url(../img/header-background.png);
   background-size: cover;
 }
 .header {
@@ -128,18 +128,18 @@ header {
     left: 0px;
   }
   &__night {
-    background: url(./img/Night.svg);
+    background: url(../img/Night.svg);
     width: 30px;
     height: 30px;
     margin-left: 48px;
   }
   &__account {
-    background: url(./img/AccountCircle.svg);
+    background: url(../img/AccountCircle.svg);
     width: 40px;
     height: 40px;
   }
   &__account:hover {
-    background: url(./img/AccountCircle_or.svg);
+    background: url(../img/AccountCircle_or.svg);
     width: 40px;
     height: 40px;
   }
@@ -204,7 +204,7 @@ header {
       display: none;
     }
     &__mobile {
-      background: url(./img/header-background.png);
+      background: url(../img/header-background.png);
       background-position: center;
       display: block;
       width: 100%;
@@ -228,20 +228,20 @@ header {
     }
 
     &__night_mobile {
-      background: url(./img/Night_mob.svg);
+      background: url(../img/Night_mob.svg);
       width: 16px;
       height: 16px;
     }
 
     &__account_mobile {
-      background: url(./img/AccountCircle_mob.svg);
+      background: url(../img/AccountCircle_mob.svg);
       width: 24px;
       height: 24px;
       margin-left: 16px;
     }
 
     &__bar_mobile {
-      background: url(./img/menu.svg);
+      background: url(../img/menu.svg);
       width: 24px;
       height: 16px;
       margin-left: 16px;
@@ -307,7 +307,7 @@ header {
       }
       label::before {
         position: absolute;
-        content: url(./img/search.svg);
+        content: url(../img/search.svg);
         top: 16px;
         left: 12px;
       }

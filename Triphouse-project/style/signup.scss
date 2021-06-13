@@ -29,13 +29,13 @@
   }
 }
 .signup::before {
-  content: url(./img/user.svg);
+  content: url(../img/user.svg);
   position: absolute;
   top: 57px;
   left: 24px;
 }
 .signup::after {
-  content: url(./img/cross.svg);
+  content: url(../img/cross.svg);
   position: absolute;
   top: 24px;
   left: 95%;
@@ -82,7 +82,7 @@
     }
   }
   .signup_mobile::before {
-    content: url(./img/cross_mob.svg);
+    content: url(../img/cross_mob.svg);
     position: absolute;
     top: 45px;
     left: 17px;
